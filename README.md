@@ -27,34 +27,16 @@ Trigger the toast using ToastManager.shared.message(...).
 Display a Toast with Animation
 Here’s how to show a toast with smooth fade-in and fade-out animations:
 
-import SwiftUI
-@main
+✨ RootView
 
-struct ExmpleViewDemoApp: App {
-    var body: some Scene {
-        WindowGroup {
-           ContentView()
-                .toast()
-        }
-    }
-}
+<img width="786" alt="Screenshot 2025-01-17 at 5 05 41 PM" src="https://github.com/user-attachments/assets/ca96edca-e5c6-4fbc-a548-1fd61dd76c68" />
 
-import SwiftUI
-import ToastPackager
 
-struct ContentView: View {
-    var body: some View {
-        Button {
-            ToastManager.shared.message(message: "Toast Message Packnger", alignment: .bottom, backgroundcolor: .red, tinColor: .white)
-        } label: {
-            Text("Toast Message")
-        }
-    }
-}
+✨ ContentView
 
-#Preview {
-    ContentView()
-}
+<img width="817" alt="Screenshot 2025-01-17 at 5 05 26 PM" src="https://github.com/user-attachments/assets/d625fd81-b2c4-44cf-9a14-a69b8715178d" />
+
+
 
 ✨ Why Smooth Animations Matter
 
@@ -70,6 +52,7 @@ Background Color: Use any color for the toast's background.
 Text Color: Choose a tint color for the text.
 
 📸 Preview Your Toast with Animations
+
 ![Simulator Screen Recording - iPhone 16 Pro - 2025-01-13 at 14 04 29](https://github.com/user-attachments/assets/5c654a84-dbf8-45ef-a0f3-fcc435fd902f)
 ![Simulator Screen Recording - iPhone 16 Pro - 2025-01-13 at 14 03 18](https://github.com/user-attachments/assets/bf802023-1306-41ff-a5be-8fb098b2a204)
 ![Simulator Screen Recording - iPhone 16 Pro - 2025-01-13 at 14 02 40](https://github.com/user-attachments/assets/8b6a28e2-eff7-4f73-a20b-391913530e9a)
