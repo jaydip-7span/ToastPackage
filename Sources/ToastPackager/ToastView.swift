@@ -28,8 +28,8 @@ struct ToastView: View {
                             ,in: Capsule())
             }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity,alignment: toastManager.alignment ?? .bottom)
-        .padding(.horizontal, 10)
+        .frame(width: (UIDevice().userInterfaceIdiom != .pad ?  UIScreen.main.bounds.width : 700) - 32)
+        .frame(maxHeight: .infinity, alignment: toastManager.alignment ?? .bottom)
     }
 }
 

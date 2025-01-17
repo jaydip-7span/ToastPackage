@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "ToastPackager"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
  spec.summary      = "  ToastManager is a simple, elegant, and highly customizable library to display toast notifications in your SwiftUI applications. Featuring smooth animations, flexible styling, and user-friendly integration, it's designed to enhance the overall user experience by providing sleek notifications"
 
   spec.description  = <<-DESC
